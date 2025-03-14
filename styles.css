@@ -3,7 +3,7 @@ body {
                  rgba(112, 108, 108, 0.1), 
                 hsla(200, 55%, 30%, 0.7), 
                 rgba(0, 0, 0, 0.8)), 
-                url('billeder\ og\ videoer/baggrund.jpg');
+                url('imgvid/baggrund.jpg');
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay; /* Sørger for en pæn blanding */
