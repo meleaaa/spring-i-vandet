@@ -29,6 +29,8 @@ body {
 .logo {
     font-size: 24px;
     font-weight: bold;
+    
+
 }
 
 /* Sticky hovedmenu */
@@ -63,6 +65,6 @@ body {
 }
 
 .nav-container ul li a:hover {
-    background: #00A6FB;
+    background: rgb(0, 166, 251, 0.8);
     border-radius: 5px;
 }
