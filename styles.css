@@ -22,7 +22,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: #0077B6;
+    background: rgb(233, 207, 144, 0.8);
     color: white;
 }
 
@@ -35,7 +35,7 @@ body {
 .nav-container {
     position: sticky;
     top: 0;
-    background: rgba(0, 119, 182, 0.8); /* Let gennemsigtig blå */
+    background: rgb(233, 207, 144, 0.8);
     backdrop-filter: blur(5px); /* Glas-effekt */
     padding: 10px 0;
     text-align: center;
