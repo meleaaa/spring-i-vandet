@@ -1,0 +1,61 @@
+body {
+    background: linear-gradient(to bottom, 
+                 rgba(112, 108, 108, 0.5), 
+                rgba(35, 91, 120, 0.7), 
+                rgba(14, 48, 66, 0.365)), 
+                url('vand.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay; /* Sørger for en pæn blanding */
+    height: 100vh;
+    margin: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #0077B6;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Sticky hovedmenu */
+.nav-container {
+    position: sticky;
+    top: 0;
+    background: rgba(0, 119, 182, 0.8); /* Let gennemsigtig blå */
+    backdrop-filter: blur(5px); /* Glas-effekt */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-container ul li {
+    display: inline;
+}
+
+.nav-container ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.nav-container ul li a:hover {
+    background: #00A6FB;
+    border-radius: 5px;
+}
