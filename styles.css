@@ -29,10 +29,19 @@ body {
 .logo {
     font-size: 24px;
     font-weight: bold;
-    
-
 }
-
+.wave{
+    width: 85%; 
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wave img{
+    width: 100%;
+    height: auto;
+}
+    
 /* Sticky hovedmenu */
 .nav-container {
     position: sticky;
@@ -41,6 +50,7 @@ body {
     backdrop-filter: blur(5px); /* Glas-effekt */
     padding: 10px 0;
     text-align: center;
+
 }
 
 .nav-container ul {
