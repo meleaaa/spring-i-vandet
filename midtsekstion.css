@@ -1,0 +1,7 @@
+.nyheder-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
