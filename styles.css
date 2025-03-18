@@ -9,7 +9,6 @@ body {
     background-blend-mode: overlay; /* Sørger for en pæn blanding */
     height: auto;
     margin: 0;
-
     /* Skrifttype */
     font-family: 'inter', sans-serif;
     color: white;
@@ -32,15 +31,26 @@ body {
 }
 .wave{
     width: 85%; 
-    height: 20%;
+    height: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .wave img{
     width: 100%;
-    height: auto;
+    height: 70%;
 }
+.wave h1{
+    position: absolute;
+    top: 11%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
     
 /* Sticky hovedmenu */
 .nav-container {
