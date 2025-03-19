@@ -1,8 +1,18 @@
 .nyheder-container {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: row; /* Ensure items are laid out in a row */
+    justify-content: flex-start; /* Align items to the start */
     margin: 5%;
     padding: 5%;
     gap: 30px;
+    width: max-content; /* Ensure the container's width adjusts to its content */
+}
+
+.midtersektion {
+    height: auto; /* Allow height to adjust automatically */
+    width: 100%; /* Set the width of the container */
+    overflow-y: hidden; /* Disable vertical scrolling */
+    border: 3px solid #060606; /* Optional: Add a border for better visibility */
+    padding: 10px; /* Optional: Add padding for spacing */
+    white-space: nowrap; /* Prevent content from wrapping to the next line */
 }
