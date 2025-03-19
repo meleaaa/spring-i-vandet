@@ -11,8 +11,15 @@
 .midtersektion {
     height: auto; /* Allow height to adjust automatically */
     width: 100%; /* Set the width of the container */
-    overflow-y: hidden; /* Disable vertical scrolling */
+    overflow-y: visible; /* Allow vertical scrolling */
     border: 3px solid #060606; /* Optional: Add a border for better visibility */
     padding: 10px; /* Optional: Add padding for spacing */
-    white-space: nowrap; /* Prevent content from wrapping to the next line */
+    white-space: normal; /* Allow content to wrap to the next line */
+}
+
+.samarbejdspartnere {
+width: 100%;
+background: url(imgvid/samarbejdspartnere.png) 
+
+
 }
