@@ -6,6 +6,7 @@
     padding: 1px;
     background: rgb(233, 207, 144, 0.8);
     color: white;
+    font-family: "montserrat", sans-serif;
 }
 
 .wave{
@@ -37,7 +38,7 @@
     top: 0;
     background: rgb(233, 207, 144, 0.8);
     backdrop-filter: blur(5px); /* Glas-effekt */
-  
+  font-family: "montserrat", sans-serif;
     text-align: center;
 
 }

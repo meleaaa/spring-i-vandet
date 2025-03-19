@@ -3,33 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kort  </title>
+    <title>index</title>
     <stylesheet>
         <link rel="stylesheet" href="styles.css">
     </stylesheet>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
+
     <div class="header">
         <stylesheet>
             <link rel="stylesheet" href="header.css">
         </stylesheet>
-        <div class="logo">
-            <img src="imgvid/logo.png" alt="logo" style="width: 100px; height: 100px;">
-        </div>
+        
         <div class="wave">
-            <img src="imgvid/wave.png" alt="wave">
+            <img src="imgvid/headerwave.png" alt="wave">
             <h1>Spring i Vandet!</h1>
         </div>
-    </div>
+    </div>  
     <div class="nav-container">
+        <div class="logo">
+            <a href="index.html">
+            <img src="imgvid/logo.png" alt="logo">
+            </a>
+        </div>
         <ul>
-            <li><a href="menusider/kort.html">Kort</a></li>
-            <li><a href="menusider/vandsport.html">Vandsport</a></li>
-            <li><a href="menusider/praktisk.html">Praktisk Info</a></li>
-            <li><a href="menusider/events.html">Events og fælleskab</a></li>
-            <li><a href="menusider/blog.html">Blog</a></li>
-            <li><a href="menusider/kontakt.html">Kontakt</a></li>
+            <li><a href="kort.html">Kort</a></li>
+            <li><a href="vandsport.html">Vandsport</a></li>
+            <li><a href="praktisk.html">Praktisk Info</a></li>
+            <li><a href="events.html">Events og fælleskab</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
     </div>
+
+
+    <div class="titelwave">
+        <h2 class="title-on-wave">Kort over aktiviteter i Aarhus</h2>
+    </div>
+
+
+<div class="map-content">
+    <p>Her kan du finde ud af, hvor de forskellige vandaktiviteter kan opleves i Aarhus området!</p>
+    <p>Sorter efter sport:</p>
+    
+
+    <form name="form1" id="form1" action="/action_page.php">
+    <select name="subject" id="subject">
+          <option value="" selected="selected">Select subject</option>
+        </select>
+      </form>
+      
+
+
+
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2263.073292073073!2d12.568073316021!3d55.676311080497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465253f1b1b1b1b1%3A0x7b3b3b3b3b3b3b3b!2sAmager%20Strandpark!5e0!3m2!1sda!2sdk!4v1632213660733!5m2!1sda!2sdk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+</div>
+
+
+<footer>
+    <div class="footer-container">
+        <p>Copyright © 2025 Spring i Vandet, Inc. All rights reserved</p>
+    </div>
+</footer>  
+
 </body>
 </html>
