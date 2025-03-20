@@ -137,8 +137,8 @@ iframe {
     flex-direction: row;
     justify-content: space-evenly;
     padding: 75px;
-    
 }
+
 .fridykningknap img{
     width: 300px;
 
@@ -160,6 +160,10 @@ iframe {
 }
 .optibillede img{
     width: 500px;
+}
+.aarhusknap img{
+    width: 300px;
+    padding: 75px;
 }
 
 
